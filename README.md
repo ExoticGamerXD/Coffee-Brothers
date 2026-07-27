@@ -29,27 +29,22 @@ Palette is black, wood, and silver — matching the brand colours you gave: a ne
 - A pausable marquee strip — hover pauses it, and there's a dedicated play/pause button for accessibility
 - Everything respects `prefers-reduced-motion`: animations are disabled/instant for anyone with that OS setting on
 
-## About the empty image slots
+## Images
 
-I don't have real photos of Coffee Brothers, so **I didn't fake any** — every photo slot currently shows a clean, on-brand placeholder (a thin dashed tag with the filename it's waiting for) instead of a stock photo or a broken-image icon. The page still looks fully designed and intentional as-is. As soon as you add a real file with the **exact filename** listed below to `images/`, it swaps in automatically — no HTML edits needed.
+All photo slots are filled with real photos of Coffee Brothers (resized and compressed for web — 60–150KB each). Here's what's where and what to swap it for if you get a better shot later:
 
-## Images to drop in
-
-| Filename | Used for | Recommended size |
+| Filename | Used for | Currently shows |
 |---|---|---|
-| `images/hero.jpg` | Full-bleed hero background (top of page) | 1920×1080 or larger, landscape. A wide shot of the stand, ideally in soft morning light |
-| `images/stand.jpg` | Story section image + the location card in "Find Us" | 1200×1500, portrait-ish. Straight-on or three-quarter shot of the stand with the counter visible |
-| `images/dish-1.jpg` | "Americano" card in the menu grid | 900×1200, portrait |
-| `images/dish-2.jpg` | "Flat White" card | 900×1200, portrait |
-| `images/dish-3.jpg` | "Filter Coffee" card | 900×1200, portrait |
-| `images/dish-4.jpg` | "Daily Bake" card | 900×1200, portrait |
-| `images/og-image.jpg` | Social share preview (link unfurl on WhatsApp/Instagram/etc.) — no on-page fallback, just skipped if missing | 1200×630, landscape |
-| `images/favicon.png` | Browser tab icon — no on-page fallback, browser just shows its default icon if missing | 512×512, square, ideally your logo mark on a solid background |
+| `images/hero.jpg` | Full-bleed hero background (top of page) | The stand at night, lit up with fairy lights |
+| `images/stand.jpg` | Story section image + the location card in "Find Us" | The stand's exterior in daylight, chevron wood cladding and sign |
+| `images/dish-1.jpg` | "Flat White" card | Latte art heart in a Coffee Brothers cup |
+| `images/dish-2.jpg` | "Takeaway Coffee" card | A Coffee Brothers cup held up over the river |
+| `images/dish-3.jpg` | "Iced Coffee" card | Iced coffee with a caramel-crumb traybake |
+| `images/dish-4.jpg` | "Daily Bake" card | A plate of fresh muffins and traybakes |
+| `images/og-image.jpg` | Social share preview (link unfurl on WhatsApp/Instagram/etc.) | Cropped from the night hero shot |
+| `images/favicon.png` | Browser tab icon | A generated "CB" monogram in the brand colours |
 
-Tips:
-- Keep photos warm and true-to-life — wood tones, black fittings, brushed-steel equipment all read well against this palette. Avoid heavy colour filters.
-- Filenames are case-sensitive on GitHub Pages — match them exactly.
-- Large JPGs slow the page down — aim to export photos at roughly 200–500KB each (most photo editors' "web/export" quality ~75–85% gets you there).
+To swap any of these for a better photo later, just overwrite the file with a new one using the **same filename** — no HTML edits needed. Keep photos warm and true-to-life, and filenames case-sensitive (GitHub Pages is case-sensitive even though Windows isn't).
 
 ## Editing content
 
