@@ -329,7 +329,10 @@
   .story p strong{ color:var(--ink); font-weight:600; }
 
   /* ---------- STATS ---------- */
-  .stats{ background:var(--ink); color:var(--paper); padding:90px 0; }
+  .stats{
+    background:linear-gradient(rgba(19,18,16,.90), rgba(19,18,16,.94)), url('images/texture.jpg') center/cover;
+    color:var(--paper); padding:90px 0;
+  }
   .stats__grid{ display:grid; grid-template-columns:repeat(4,1fr); gap:40px; text-align:center; }
   .stat .num{ font-family:var(--serif); font-size:clamp(2.6rem,4.8vw,3.6rem); color:var(--paper); display:flex; align-items:baseline; justify-content:center; gap:2px; }
   .stat .lbl{ margin-top:10px; font-family:var(--mono); font-size:0.72rem; letter-spacing:0.08em; text-transform:uppercase; color:rgba(182,188,194,0.75); }
@@ -413,7 +416,7 @@
   /* ---------- CTA ---------- */
   .cta{
     padding:130px 32px; text-align:center; position:relative; overflow:hidden;
-    background:var(--ink);
+    background:linear-gradient(rgba(19,18,16,.90), rgba(19,18,16,.94)), url('images/texture.jpg') center/cover;
     color:var(--paper);
   }
   .cta__inner{ position:relative; z-index:2; max-width:620px; margin:0 auto; }
@@ -690,12 +693,8 @@
 
       <div class="visit__grid">
         <div class="loc-card reveal">
-          <div class="photo loc-card__img" data-bg="images/stand.jpg" role="img" aria-label="Coffee Brothers stand exterior">
+          <div class="photo loc-card__img" data-bg="images/loc.jpg" role="img" aria-label="Coffee to go, ordered through the window">
             <div class="photo__bg"></div>
-            <div class="photo__fallback">
-              <svg viewBox="0 0 24 24" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 21h16M6 21V9h12v12M9 9V5a1 1 0 011-1h4a1 1 0 011 1v4"></path><path d="M9 13h6M9 17h6"></path></svg>
-              <span class="tag">images/stand.jpg</span>
-            </div>
           </div>
           <div class="loc-card__body">
             <span class="tag">Western Road, Mardyke</span>
